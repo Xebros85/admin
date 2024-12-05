@@ -33,23 +33,24 @@
 .sidebar {
   background-color: var(--med-green);
   display: grid;
-  grid-template-rows: 1fr 2fr 2fr;
-  
-  justify-items: center;
+  grid-template-rows: 1fr 2fr 2fr;  
 }
 
 .title {
-  margin-top: 50px;
+  margin-top: 30px;
   color: var(--lt-green);
-  font-size: 20px;
+  justify-content: center;
+  align-items: center;
 }
+
+
 
 .links {
   height: 300px;
   display: grid;
   grid-template-rows: repeat(6 1fr);
   width: 100%;
-  align-items: center;
+  justify-items: center;
 }
 
 .links2 {
